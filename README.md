@@ -12,6 +12,7 @@ Além disso, os dados também são inseridos em uma tabela MySQL para persistên
 - Scrapy
 - MySQL
 - MySQL Connector Python
+
 Além disso, você também precisa ter uma instância do MySQL em execução, com um banco de dados chamado "Books" criado, e as credenciais de acesso configuradas no script.
 
 ## Como usar
@@ -27,11 +28,7 @@ python -m venv venv
 ```bash
 venv/Scripts/activate
 ```
-4° Instale as dependências:
-```bash
-pip install -r requirements.txt
-```
-5° Vá para o shell do Scrapy:
+4° Vá para o shell do Scrapy:
 
 ```bash
 scrapy shell
