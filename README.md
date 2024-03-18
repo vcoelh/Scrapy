@@ -15,15 +15,26 @@ Além disso, os dados também são inseridos em uma tabela MySQL para persistên
 Além disso, você também precisa ter uma instância do MySQL em execução, com um banco de dados chamado "Books" criado, e as credenciais de acesso configuradas no script.
 
 ## Como usar
-### Clone este repositório:
+1° Clone este repositório:
 ```bash
 git clone https://github.com/vcoelh/Scrapy.git
 ```
-
-Instale as dependências:
-
+2° Crie um Virtual Envirement:
+```bash
+python -m venv venv
+````
+3° Vá para o ambiente virtual (Em Windows): 
+```bash
+venv/Scripts/activate
+```
+4° Instale as dependências:
 ```bash
 pip install -r requirements.txt
+```
+5° Vá para o shell do Scrapy:
+
+```bash
+scrapy shell
 ```
 
 Execute o script scrapy crawl bookspider para iniciar a coleta de dados:
